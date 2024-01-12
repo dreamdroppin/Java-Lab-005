@@ -30,3 +30,19 @@ public class FlowOfExecution {
         }
     }
 }
+/*
+* I already see flag1 and flag 2
+* making me think of capture the flag.
+*
+* Overall, I see true and false statements.
+* It's going to print Ping or Pong, or both.
+* For the second, it's going to be true because the
+* value IS over 0. For the first, 202 % 2
+* 202 modulo 2 is 0. It's all true, and it'll print the
+* Ping and Pong.
+*
+* True
+* true
+* ping
+* pong
+*  */
