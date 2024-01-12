@@ -18,7 +18,8 @@ Modify the existing Guess My Number game from your previous lab to provide feedb
 
 ## Part 3: Fermat's Last Theorem Checker
 
-Fermat’s Last Theorem says: \[ \text{if } n > 2 \text{, there are no integers } a, b, c, \text{ and } n \text{ such that } a^n + b^n = c^n \]
+Fermat’s Last Theorem says: If n > 2, there are no integers a, b, c, and n such that $$a^n + b^n = c^n$$
+
 
 **Objective:**
 Write a program in a file named `src/Fermat.java` that checks Fermat’s Last Theorem for four input integers (a, b, c, and n). If \( n > 2 \) and \( a^n + b^n = c^n \), display "Holy smokes, Fermat was wrong!" Otherwise, display "No, that doesn’t work."
