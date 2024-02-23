@@ -42,16 +42,16 @@ String hello = "world";
 ```
 | Expression                               | Result |
 | ---------------------------------------- | ------ |
-| yes == no &#124;&#124; grade > amount    |        |
-| amount == 40.0 &#124;&#124; 50.0          |        |
-| hiVal != loVal &#124;&#124; loVal < 0     |        |
-| True &#124;&#124; hello.length() > 0     |        |
-| hello.isEmpty() && yes                   |        |
-| grade <= 100 && !false                   |        |
-| !yes &#124;&#124; no                      |        |
-| grade > 75 > amount                      |        |
-| amount <= hiVal && amount >= loVal       |        |
-| no && !no &#124;&#124; yes && !yes       |        |
+| yes == no &#124;&#124; grade > amount    |    True   |
+| amount == 40.0 &#124;&#124; 50.0          |    True    |
+| hiVal != loVal &#124;&#124; loVal < 0     |   True     |
+| True &#124;&#124; hello.length() > 0     |    True    |
+| hello.isEmpty() && yes                   |   False     |
+| grade <= 100 && !false                   |    False   |
+| !yes &#124;&#124; no                      |   False     |
+| grade > 75 > amount                      |   Error     |
+| amount <= hiVal && amount >= loVal       |   Error     |
+| no && !no &#124;&#124; yes && !yes       |   Error     |
 
 ## Part 5: Logical Operators Understanding
 
